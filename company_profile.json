@@ -1,0 +1,55 @@
+{
+  "company": "Imprezia",
+  "company_slug": "imprezia",
+  "repo": "intent-lint",
+  "package": "intent_lint",
+  "cli": "intent-lint",
+  "title": "Intent Lint",
+  "problem": "Imprezia's pitch is \"one line integration, ad inside the LLM response, intent matched to advertiser.\" But every AI app developer who's been at this for 2 weeks knows the real question is: \"If I let this network insert brand mentions into my product's voice, how do I prevent (a) hallucinated facts about the brand, (b) tonal mismatch with my product, (c) policy violations for regulated verticals (healthcare, finance, kids), and (d) latency tax that breaks streaming?",
+  "direction": "An open developer toolkit + benchmark that lets an AI app dev simulate, audit, and gate Imprezia style intent ad insertions before they ship - turning \"trust the network\" into \"trust and verify in CI.\"",
+  "why": "The Core Systems JD's own language - \"throughput, correctness, and failure modes\" - is the server side of this work. intent lint is the missing client side + open benchmark. Shipping it is the loudest possible signal of fit.",
+  "terms": [
+    "imprezia",
+    "pitch",
+    "integration",
+    "inside",
+    "response",
+    "intent",
+    "matched",
+    "advertiser",
+    "every",
+    "developer",
+    "weeks",
+    "knows",
+    "question",
+    "network",
+    "insert",
+    "brand",
+    "mentions",
+    "product"
+  ],
+  "metrics": [
+    "imprezia_coverage",
+    "pitch_risk",
+    "integration_precision",
+    "inside_latency"
+  ],
+  "failure_modes": [
+    "imprezia_drift",
+    "pitch_gap",
+    "integration_misroute",
+    "inside_blindspot"
+  ],
+  "sources": [
+    "https://www.ycombinator.com/companies/imprezia",
+    "https://www.ycombinator.com/launches/O5Q-imprezia-world-s-first-ai-ad-network",
+    "https://www.ycombinator.com/companies/imprezia/jobs/HDrJSMq-founding-engineer-core-systems",
+    "https://www.ycombinator.com/companies/imprezia/jobs/jjpOc4q-growth-ai-developers",
+    "https://www.linkedin.com/posts/y-combinator_ads-suck-but-only-because-they-interrupt-activity-7356790766544801792-RmCO",
+    "https://www.linkedin.com/in/bisheshkhadka/",
+    "https://x.com/bisheshk",
+    "https://www.linkedin.com/posts/bisheshkhadka_humbled-by-the-response-to-imprezias-launch-activity-7358932922348851201-2fi5",
+    "https://huggingface.co/vectara/hallucination_evaluation_model"
+  ],
+  "github_url": "https://github.com/t7r0n/intent-lint"
+}

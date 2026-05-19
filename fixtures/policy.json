@@ -1,0 +1,18 @@
+{
+  "company": "Imprezia",
+  "repo": "intent-lint",
+  "metrics": [
+    "imprezia_coverage",
+    "pitch_risk",
+    "integration_precision",
+    "inside_latency"
+  ],
+  "failure_modes": [
+    "imprezia_drift",
+    "pitch_gap",
+    "integration_misroute",
+    "inside_blindspot"
+  ],
+  "minimum_cases": 144,
+  "requires_evidence_markers": true
+}
