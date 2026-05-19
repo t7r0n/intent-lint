@@ -1,2 +1,0 @@
-[console_scripts]
-intent-lint = intent_lint.cli:main
