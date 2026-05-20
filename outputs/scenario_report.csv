@@ -1,5 +1,5 @@
 scenario,cases,blocks,reviews,mean_severity,mean_score,top_evidence_id,recommended_action
-imprezia evidence replay,36,4,5,2.611,0.4176,ev_0132,block release until cited evidence is regenerated
-inside operator packet,36,4,5,2.556,0.4091,ev_0099,accept only if decision claims cite fixture evidence
-integration regression harness,36,3,5,2.528,0.3895,ev_0022,open a regression issue with trace and benchmark delta
-pitch boundary probe,36,3,4,2.528,0.411,ev_0121,route to reviewer with evidence packet
+claim regression harness,36,3,5,2.528,0.4036,ev_0022,open a regression issue with trace and benchmark delta
+evidence replay,36,4,5,2.611,0.4007,ev_0000,block release until cited evidence is regenerated
+handoff boundary probe,36,3,4,2.528,0.3775,ev_0033,route to reviewer with evidence packet
+review operator packet,36,4,5,2.556,0.3967,ev_0099,accept only if decision claims cite fixture evidence

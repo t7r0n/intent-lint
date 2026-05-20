@@ -1,13 +1,13 @@
-# Operator Brief: Imprezia
+# Operator Brief: Intent Lint
 
-Imprezia gets a local, deterministic pressure test around imprezia, pitch, and integration. The useful part is the repeatable evidence path from fixture to failure to operator action.
+This local harness runs a deterministic pressure test around evidence, workflow, and review. The useful part is the repeatable evidence path from fixture to failure to operator action.
 
 ## Highest-leverage checks
 
-- imprezia evidence replay -> block release until cited evidence is regenerated (imprezia_coverage, evidence ev_0132).
-- inside operator packet -> accept only if decision claims cite fixture evidence (pitch_risk, evidence ev_0099).
-- integration regression harness -> open a regression issue with trace and benchmark delta (integration_precision, evidence ev_0022).
-- pitch boundary probe -> route to reviewer with evidence packet (inside_latency, evidence ev_0121).
+- evidence replay -> block release until cited evidence is regenerated (evidence_coverage, evidence ev_0000).
+- review operator packet -> accept only if decision claims cite fixture evidence (handoff_risk, evidence ev_0099).
+- claim regression harness -> open a regression issue with trace and benchmark delta (claim_precision, evidence ev_0022).
+- handoff boundary probe -> route to reviewer with evidence packet (review_latency, evidence ev_0033).
 
 ## What makes this useful
 

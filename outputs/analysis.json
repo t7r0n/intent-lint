@@ -1,5 +1,5 @@
 {
-  "company": "Imprezia",
+  "company": "Intent Lint",
   "repo": "intent-lint",
   "cases": 144,
   "status_counts": {
@@ -9,54 +9,54 @@
   },
   "clusters": [
     {
-      "scenario": "imprezia evidence replay",
-      "cases": 36,
-      "blocks": 4,
-      "reviews": 5,
-      "mean_severity": 2.611,
-      "mean_score": 0.4176,
-      "top_evidence_id": "ev_0132",
-      "recommended_action": "block release until cited evidence is regenerated"
-    },
-    {
-      "scenario": "inside operator packet",
-      "cases": 36,
-      "blocks": 4,
-      "reviews": 5,
-      "mean_severity": 2.556,
-      "mean_score": 0.4091,
-      "top_evidence_id": "ev_0099",
-      "recommended_action": "accept only if decision claims cite fixture evidence"
-    },
-    {
-      "scenario": "integration regression harness",
+      "scenario": "claim regression harness",
       "cases": 36,
       "blocks": 3,
       "reviews": 5,
       "mean_severity": 2.528,
-      "mean_score": 0.3895,
+      "mean_score": 0.4036,
       "top_evidence_id": "ev_0022",
       "recommended_action": "open a regression issue with trace and benchmark delta"
     },
     {
-      "scenario": "pitch boundary probe",
+      "scenario": "evidence replay",
+      "cases": 36,
+      "blocks": 4,
+      "reviews": 5,
+      "mean_severity": 2.611,
+      "mean_score": 0.4007,
+      "top_evidence_id": "ev_0000",
+      "recommended_action": "block release until cited evidence is regenerated"
+    },
+    {
+      "scenario": "handoff boundary probe",
       "cases": 36,
       "blocks": 3,
       "reviews": 4,
       "mean_severity": 2.528,
-      "mean_score": 0.411,
-      "top_evidence_id": "ev_0121",
+      "mean_score": 0.3775,
+      "top_evidence_id": "ev_0033",
       "recommended_action": "route to reviewer with evidence packet"
+    },
+    {
+      "scenario": "review operator packet",
+      "cases": 36,
+      "blocks": 4,
+      "reviews": 5,
+      "mean_severity": 2.556,
+      "mean_score": 0.3967,
+      "top_evidence_id": "ev_0099",
+      "recommended_action": "accept only if decision claims cite fixture evidence"
     }
   ],
   "highest_risk": {
-    "scenario": "imprezia evidence replay",
+    "scenario": "evidence replay",
     "cases": 36,
     "blocks": 4,
     "reviews": 5,
     "mean_severity": 2.611,
-    "mean_score": 0.4176,
-    "top_evidence_id": "ev_0132",
+    "mean_score": 0.4007,
+    "top_evidence_id": "ev_0000",
     "recommended_action": "block release until cited evidence is regenerated"
   }
 }
