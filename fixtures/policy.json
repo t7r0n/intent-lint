@@ -13,6 +13,28 @@
     "integration_misroute",
     "inside_blindspot"
   ],
+  "domain_archetypes": [
+    {
+      "name": "imprezia evidence replay",
+      "trigger": "imprezia signal changes while pitch context is stale",
+      "expected": "block release until cited evidence is regenerated"
+    },
+    {
+      "name": "pitch boundary probe",
+      "trigger": "pitch handoff crosses a policy or trust boundary",
+      "expected": "route to reviewer with evidence packet"
+    },
+    {
+      "name": "integration regression harness",
+      "trigger": "integration behavior regresses against the last accepted fixture",
+      "expected": "open a regression issue with trace and benchmark delta"
+    },
+    {
+      "name": "inside operator packet",
+      "trigger": "inside output needs a human-readable audit packet",
+      "expected": "accept only if decision claims cite fixture evidence"
+    }
+  ],
   "minimum_cases": 144,
   "requires_evidence_markers": true
 }

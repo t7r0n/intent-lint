@@ -1,7 +1,5 @@
 scenario,cases,blocks,reviews,mean_severity,mean_score,top_evidence_id,recommended_action
-imprezia drift,24,2,3,2.5,0.3897,ev_0088,block release until replay is understood
-imprezia evidence recall,24,3,3,1.875,0.3057,ev_0132,block release until replay is understood
-inside policy boundary,24,2,3,1.708,0.2742,ev_0033,block release until replay is understood
-integration failure replay,24,2,4,3.333,0.5012,ev_0044,block release until replay is understood
-pitch gap,24,3,2,3.333,0.5544,ev_0143,block release until replay is understood
-pitch reviewer handoff,24,2,4,2.583,0.4145,ev_0121,block release until replay is understood
+imprezia evidence replay,36,4,5,2.611,0.4176,ev_0132,block release until cited evidence is regenerated
+inside operator packet,36,4,5,2.556,0.4091,ev_0099,accept only if decision claims cite fixture evidence
+integration regression harness,36,3,5,2.528,0.3895,ev_0022,open a regression issue with trace and benchmark delta
+pitch boundary probe,36,3,4,2.528,0.411,ev_0121,route to reviewer with evidence packet

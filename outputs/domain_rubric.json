@@ -1,0 +1,67 @@
+{
+  "repo": "intent-lint",
+  "company": "Imprezia",
+  "rubric_axes": [
+    {
+      "axis": "imprezia_coverage",
+      "failures": [
+        "imprezia_drift"
+      ],
+      "evidence_required": true
+    },
+    {
+      "axis": "pitch_risk",
+      "failures": [
+        "pitch_gap"
+      ],
+      "evidence_required": true
+    },
+    {
+      "axis": "integration_precision",
+      "failures": [
+        "integration_misroute"
+      ],
+      "evidence_required": true
+    },
+    {
+      "axis": "inside_latency",
+      "failures": [
+        "inside_blindspot"
+      ],
+      "evidence_required": true
+    }
+  ],
+  "archetypes": [
+    {
+      "name": "imprezia evidence replay",
+      "trigger": "imprezia signal changes while pitch context is stale",
+      "expected": "block release until cited evidence is regenerated"
+    },
+    {
+      "name": "pitch boundary probe",
+      "trigger": "pitch handoff crosses a policy or trust boundary",
+      "expected": "route to reviewer with evidence packet"
+    },
+    {
+      "name": "integration regression harness",
+      "trigger": "integration behavior regresses against the last accepted fixture",
+      "expected": "open a regression issue with trace and benchmark delta"
+    },
+    {
+      "name": "inside operator packet",
+      "trigger": "inside output needs a human-readable audit packet",
+      "expected": "accept only if decision claims cite fixture evidence"
+    }
+  ],
+  "sources_used": [
+    "https://www.ycombinator.com/companies/imprezia",
+    "https://www.ycombinator.com/launches/O5Q-imprezia-world-s-first-ai-ad-network",
+    "https://www.ycombinator.com/companies/imprezia/jobs/HDrJSMq-founding-engineer-core-systems",
+    "https://www.ycombinator.com/companies/imprezia/jobs/jjpOc4q-growth-ai-developers",
+    "https://www.linkedin.com/posts/y-combinator_ads-suck-but-only-because-they-interrupt-activity-7356790766544801792-RmCO",
+    "https://www.linkedin.com/in/bisheshkhadka/",
+    "https://x.com/bisheshk",
+    "https://www.linkedin.com/posts/bisheshkhadka_humbled-by-the-response-to-imprezias-launch-activity-7358932922348851201-2fi5",
+    "https://huggingface.co/vectara/hallucination_evaluation_model"
+  ]
+}
