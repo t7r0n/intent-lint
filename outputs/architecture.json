@@ -1,0 +1,59 @@
+{
+  "layers": [
+    {
+      "name": "synthetic_fixture_replay",
+      "purpose": "exercise imprezia and pitch cases"
+    },
+    {
+      "name": "domain_strategy",
+      "purpose": "score imprezia_coverage and pitch_risk"
+    },
+    {
+      "name": "evidence_lock",
+      "purpose": "reject narrative claims without fixture evidence IDs"
+    },
+    {
+      "name": "operator_packet",
+      "purpose": "emit dashboard, SVG readout, CSV, markdown report, and demo pack"
+    }
+  ],
+  "pressure_index": 0.3167,
+  "top_leverage_points": [
+    {
+      "rank": 1,
+      "scenario": "imprezia evidence replay",
+      "metric": "imprezia_coverage",
+      "failure_mode": "imprezia_drift",
+      "evidence": "ev_0132",
+      "operator_action": "block release until cited evidence is regenerated",
+      "severity": 2.611
+    },
+    {
+      "rank": 2,
+      "scenario": "inside operator packet",
+      "metric": "pitch_risk",
+      "failure_mode": "pitch_gap",
+      "evidence": "ev_0099",
+      "operator_action": "accept only if decision claims cite fixture evidence",
+      "severity": 2.556
+    },
+    {
+      "rank": 3,
+      "scenario": "integration regression harness",
+      "metric": "integration_precision",
+      "failure_mode": "integration_misroute",
+      "evidence": "ev_0022",
+      "operator_action": "open a regression issue with trace and benchmark delta",
+      "severity": 2.528
+    },
+    {
+      "rank": 4,
+      "scenario": "pitch boundary probe",
+      "metric": "inside_latency",
+      "failure_mode": "inside_blindspot",
+      "evidence": "ev_0121",
+      "operator_action": "route to reviewer with evidence packet",
+      "severity": 2.528
+    }
+  ]
+}
