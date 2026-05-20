@@ -1,6 +1,6 @@
 # Operator Brief: Imprezia
 
-Imprezia gets a local, deterministic pressure test around imprezia, pitch, and integration. The useful part is not the dashboard; it is the repeatable evidence path from fixture to failure to operator action.
+Imprezia gets a local, deterministic pressure test around imprezia, pitch, and integration. The useful part is the repeatable evidence path from fixture to failure to operator action.
 
 ## Highest-leverage checks
 
