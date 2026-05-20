@@ -1,6 +1,6 @@
 # Decision Report: Intent Lint
 
-An open developer toolkit + benchmark that lets an AI app dev simulate, audit, and gate Imprezia style intent ad insertions before they ship - turning "trust the network" into "trust and verify in CI."
+An open developer toolkit + benchmark that lets an AI app dev simulate, audit, and gate Imprezia style intent ad insertions before they ship — turning "trust the network" into "trust and verify in CI."
 
 ## Evidence-Grounded Findings
 
